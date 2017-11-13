@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actionSave"
+        android:icon="@drawable/content_save"
+        android:orderInCategory="200"
+        android:title="Save"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/actionPickImage"
+        android:icon="@drawable/image"
+        android:orderInCategory="100"
+        android:title="Save"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/actionTakePhoto"
+        android:icon="@drawable/ic_menu_camera"
+        android:orderInCategory="100"
+        android:title="Save"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/actionPickColor"
+        android:icon="@drawable/format_color_fill"
+        android:orderInCategory="0"
+        android:title="Save"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/actionPickSize"
+        android:icon="@drawable/marker"
+        android:orderInCategory="0"
+        android:title="Save"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/actionShare"
+        android:icon="@drawable/share"
+        android:orderInCategory="150"
+        android:title="Share"
+        app:showAsAction="always" />
+</menu>
